@@ -44,7 +44,7 @@ public class Rysunek {
 			
 			System.out.println("Podaj dlugosc promienia: ");
 			bok = in.nextDouble();
-			if(bok < 0)
+			if(bok <= 0)
 			{
 				throw new IllegalArgumentException("Promien moze miec tylko wartosci dodatnie!");
 			}
@@ -78,7 +78,7 @@ public class Rysunek {
 			
 			System.out.println("Podaj dlugosc boku: ");
 			bok = in.nextDouble();
-			if(bok < 0)
+			if(bok <= 0)
 			{
 				throw new IllegalArgumentException("Bok moze miec tylko wartosci dodatnie!");
 			}
@@ -110,7 +110,7 @@ public class Rysunek {
 			
 			System.out.println("Podaj dlugosc boku: A ");
 			bok = in.nextDouble();
-			if(bok < 0)
+			if(bok <= 0)
 			{
 				throw new IllegalArgumentException("Bok moze miec tylko wartosci dodatnie!");
 			}
@@ -118,7 +118,7 @@ public class Rysunek {
 			System.out.println("Podaj dlugosc boku: B ");
 			bok2 = in.nextDouble();
 			
-			if(bok2 < 0)
+			if(bok2 <= 0)
 			{
 				throw new IllegalArgumentException("Bok moze miec tylko wartosci dodatnie!");
 			}
